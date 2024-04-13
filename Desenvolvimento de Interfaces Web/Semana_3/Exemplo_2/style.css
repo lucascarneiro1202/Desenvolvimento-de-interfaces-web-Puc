@@ -1,0 +1,23 @@
+body {
+    /* color: red; */
+    /* color: #FF0000; */
+    /* color: #F00; */
+    color: rgb(255, 0, 0);
+    /* font-size: 20pt; */
+    /* font-size: 0.4cm; */
+    /* font-size: 120% */
+}
+
+h1 {
+    font-size: 0.4cm;
+}
+
+p {
+    color: navy;
+    font-size: 0.3cm;
+}
+
+img {
+    display: block; /* transformar elemento inline em elemento block */
+    margin: 0 /*parte de cima e parte de baixo*/ auto /*parte direta e esquerda*/ /* centralizar a imagem */
+}

@@ -1,0 +1,55 @@
+/*
+@media screen and (max-width: 768px) {
+    #contents { width: 60%; }
+    #sidebar { width: 40%; }
+}
+*/
+
+/* Comportamento normal Desktop */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background: green;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+/* Breackpoints para resoluções específicas (smartphones, tablets, dispositivos pequenos)*/
+
+/* Breackpoint: 600 */
+
+@media screen and ( max-width:600px ) {
+    .cabecalho {
+        display: none;
+    }
+
+    .conteudo {
+        font-size: 150%;
+    }
+}
+
+/* Breackpoint: 1024 */
+
+@media screen and ( min-width:601px ) and ( max-width:1024px ) {
+    .cabecalho {
+        background: blue;
+        height: 100px;
+    }
+}
+
+/* Breackpoint: 1200 */
+
+@media screen and ( min-width:1025px ) and ( max-width:1200px ) {
+    .cabecalho {
+        background: orange;
+    }
+}

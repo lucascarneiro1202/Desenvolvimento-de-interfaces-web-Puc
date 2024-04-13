@@ -1,0 +1,30 @@
+p, ul {
+    background-color: yellow;
+}
+
+li.active { /* elementos associados a "li" e a "active" ao mesmo tempo */
+    color: red;
+}
+
+li.active + li { /* elementos associados a "li", próximo irmão (apenas um) de elementos associados a "li.active" */
+    color: blue;
+}
+
+li.active ~ li { /* elementos associados a "li", próximos irmãos (todos os outros) de elementos associados a "li.active" */
+    font-family: Arial;
+}
+
+menu li { /* elementos associados a "li", descendentes (não necessariamente filhos) de elementos associados a "menu" */
+    font-size: xx-small;
+}
+
+ul > li { /* elementos associados a "li", FILHOS de elementos associados a "menu" */
+    color: green    ;
+}
+
+main p {
+    color: blue; /* elementos associados a "p", descendentes (não necessariamente filhos) de elementos associados a "main" */
+}
+
+
+

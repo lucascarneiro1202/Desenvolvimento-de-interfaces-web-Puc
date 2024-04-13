@@ -1,0 +1,34 @@
+/* seletores de elementos HTML */
+p {
+    background-color: yellow;
+  }
+  
+/* seletores de atributos id */
+#menu-principal {
+  background-color: lightgray;
+}
+  
+/* seletores de atributos class */
+.leia-mais {
+  text-align: right;
+}
+  
+/* seletores de atributos quaisquer */
+[src] {
+  float: right;
+}
+  
+/* seletores de atributos pseudo-classes */ /* first-of-type, nth-child, hover, etc */
+p:hover { /* Atributos sobre os quais o mouse é passado */
+  color: red;
+}
+  
+/* seletores de atributos pseudo-elementos */
+p::first-letter {
+  font-size: xx-large;
+}
+  
+/* seletores universal */
+* {
+  margin: 0;
+}

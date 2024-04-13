@@ -1,0 +1,9 @@
+#wrapper li { color: violet } /* especificidade: 0, 1, 0, 1 */
+
+li.active { color: green !important } /* especificidade: 0, 0, 1, 1 */
+
+li { color: red } /* especificidade: 0, 0, 0, 1 */
+li { color: blue }
+li { color: orange }
+
+
